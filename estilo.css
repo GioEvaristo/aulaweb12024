@@ -1,3 +1,10 @@
 body {
-    background-color: rgb(113, 205, 251);
+    background-color: rgb(230, 38, 188);
+}
+header{
+    background-image: linear-gradient(#cb1fab, #330126 ) ;
+    display: flex;
+    color: rgb(0, 0, 0);
+    font-style: italic;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
