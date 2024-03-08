@@ -6,5 +6,16 @@ header{
     display: flex;
     color: rgb(0, 0, 0);
     font-style: italic;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+
+}
+main{
+
+}
+footer{
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(#cb1fab, #330126 ) ;
 }
