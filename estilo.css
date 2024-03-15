@@ -1,21 +1,32 @@
-body {
-    background-color: rgb(230, 38, 188);
+@import url('https://fonts.googleapis.com/css2?family=Jacquarda+Bastarda+9&family=Mountains+of+Christmas:wght@400;700&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Mountains of Christmas';
 }
+
+:root{
+    --primary: #FF7BC4;
+    --secondary: #790F4A;
+}
+
 header{
-    background-image: linear-gradient(#cb1fab, #330126 ) ;
     display: flex;
-    color: rgb(0, 0, 0);
-    font-style: italic;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: large;
-
+    justify-content: flex-start;
+    border-bottom: var(--secondary);
+    border-bottom-width: 0.5rem;
+    border-bottom-style: solid;
+    height: 5rem;
 }
-main{
 
-}
 footer{
-    height: 4rem;
+    height: 3.5rem;
     display: flex;
     align-items: center;
-    background-image: linear-gradient(#cb1fab, #330126 ) ;
+    background-color: #790F4A;
+    justify-content: space-between;
 }
+
+
