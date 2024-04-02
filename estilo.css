@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Jacquarda+Bastarda+9&family=Mountains+of+Christmas:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@300&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     outline: 0;
-    font-family: 'Mountains of Christmas';
+    font-family: 'Mitr';
 }
 
 :root{
@@ -14,12 +14,9 @@
 
 header{
     display: flex;
-    justify-content: flex-start;
-    border-bottom: var(--secondary);
-    border-bottom-width: 0.5rem;
-    border-bottom-style: solid;
+    justify-content:last baseline;
     height: 5rem;
-    background-color: var(--secondary);
+    background-image: linear-gradient(#a80960, #5e0335);
 }
 header figure{
     display: flex;
@@ -35,7 +32,7 @@ header nav {
 header nav a {
     margin: 0 1rem;
     text-decoration: none;
-    color: var(green);
+    color: var(rgb(78, 1, 52));
 }
 header nav a:hover {
     font-weight: bold;
@@ -54,7 +51,7 @@ main{
     background-color: #fb9cd0;
 
 }
-main.comentario {
+main.cartas {
     display: grid;
     grid-template-columns: auto auto auto auto;
     gap: 0.5rem;
@@ -62,17 +59,17 @@ main.comentario {
     padding: 0.5rem;
 }
 
-main.comentario section {
+main.cartas section {
     background-color: var(--secondary);
     padding: 0.5rem;
     border-radius: 0.5rem;
 }
 
-main.comentario section aside {
+main.cartas section aside {
     display: flex;
 }
 
-main.comentario section aside p {
+main.cartas section aside p {
     font-size: 0.8rem;
     margin-left: 0.5rem;
 }
@@ -81,8 +78,6 @@ footer{
     height: 3.5rem;
     display: flex;
     align-items: center;
-    background-color: var(--secondary);
+    background-image: linear-gradient(#a80960, #5e0335);
     justify-content: space-between;
 }
-
-

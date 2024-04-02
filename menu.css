@@ -31,15 +31,13 @@ header input#menu-abre {
     }
 
     header input:checked~nav label[for='menu-abre'] span.menu-hamburger {
-        transform: rotate(-45deg);
         transition: 0.5s;
-        margin: 0;
+        margin: 0.5rem;
     }
 
     header input:checked~nav label[for='menu-abre'] span.menu-hamburger:first-child {
-        transform: rotate(45deg);
         transition: 0.5s;
-        margin: 0;
+        margin: 0.5rem;
     }
 
     header input:checked~nav label[for='menu-abre'] span.menu-hamburger:last-child {
