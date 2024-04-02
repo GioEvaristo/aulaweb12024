@@ -1,21 +1,24 @@
-@media(max-width: 800px) {
-    main.comentario {
+@media(max-width: 200px) {
+    main.cartas {
         display: grid;
         grid-template-columns: auto auto auto;
     }
 }
 
-@media(max-width: 600px) {
-    main.comentario {
+@media(max-width: 200px) {
+    main.cartas {
         display: grid;
         grid-template-columns: auto auto;
     }
 }
 
-@media(max-width: 400px) {
-    main.comentario {
+@media(max-width: 200px) {
+    main.cartas {
         display: grid;
         grid-template-columns: auto;
+    }
+    main.cartas figure img {
+        padding: 0.5rem;
     }
 
     main.index section {

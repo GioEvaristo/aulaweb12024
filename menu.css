@@ -4,7 +4,7 @@ header input#menu-abre {
 
 @media(max-width: 400px) {
     header figure span {
-        display: none;
+        display: flex;
     }
 
     header nav label[for='menu-abre'] {
@@ -66,7 +66,7 @@ header input#menu-abre {
     }
 
     header input:checked~nav div a:hover {
-        background-color:orangered;
-        color: tomato;
+        background-color: #e258c4;
+        color: purple;
     }
 }

@@ -19,11 +19,11 @@ header{
     background-image: linear-gradient(#a80960, #5e0335);
 }
 header figure{
-    display: flex;
+    display: flexbox;
     align-items: self-start;
 }
 header figure img{
-    padding: 0.3rem;
+    padding-left: 25px;
 }
 header nav {
     display: flex;
@@ -54,15 +54,16 @@ main{
 main.cartas {
     display: grid;
     grid-template-columns: auto auto auto auto;
-    gap: 0.5rem;
-    align-content: baseline;
+    align-content: flex-start;
     padding: 0.5rem;
 }
 
 main.cartas section {
-    background-color: var(--secondary);
+    background-color: var(--primary);
     padding: 0.5rem;
-    border-radius: 0.5rem;
+    margin: 1rem;
+    font-size: x-large;
+    color: white;
 }
 
 main.cartas section aside {
@@ -70,8 +71,18 @@ main.cartas section aside {
 }
 
 main.cartas section aside p {
-    font-size: 0.8rem;
-    margin-left: 0.5rem;
+    font-size: 5rem;
+    margin-top: 100px;
+}
+main.titulo{
+    background-size: cover;
+}
+
+.background{
+    background-image: url('img/background.png');
+    height: 43rem;
+    width: 30%;
+    background-repeat: no-repeat;
 }
 
 footer{
@@ -80,4 +91,5 @@ footer{
     align-items: center;
     background-image: linear-gradient(#a80960, #5e0335);
     justify-content: space-between;
+    color: white;
 }
