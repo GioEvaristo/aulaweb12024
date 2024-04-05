@@ -14,7 +14,7 @@
 
 header{
     display: flex;
-    justify-content:last baseline;
+    justify-content:space-between;
     height: 5rem;
     background-image: linear-gradient(#a80960, #5e0335);
 }
@@ -28,11 +28,13 @@ header figure img{
 header nav {
     display: flex;
     align-items: center;
+    font-size: x-large;
 }
 header nav a {
     margin: 0 1rem;
     text-decoration: none;
-    color: var(rgb(78, 1, 52));
+    color: white;
+    
 }
 header nav a:hover {
     font-weight: bold;
@@ -47,9 +49,14 @@ main.index section img {
     width: 32%;
 }
 
-main.index{
+main{
     background-image: url(./img/background.png);
     background-repeat: no-repeat;
+}
+
+main.index figure img{
+    padding: 0.5rem;
+    margin: 0.5rem;
 }
 
 main{
@@ -69,6 +76,20 @@ main.cartas section {
     margin: 1rem;
     font-size: x-large;
     color: white;
+    border: 0.5rem solid var(--secondary);
+    box-shadow: 0.3rem 0.2rem rgba(51, 33, 45, 0.164);
+}
+
+main.index section aside{
+    background-color: #FF5BB6;
+    padding: 0.5rem;
+    margin: 1rem;
+    font-size: x-large;
+    color: white;
+    border: 0.5rem solid var(--secondary);
+    box-shadow: 0.3rem 0.2rem rgba(51, 33, 45, 0.164);
+    height: 8rem;
+    width: 30rem;
 }
 
 main.cartas section aside {
@@ -78,6 +99,11 @@ main.cartas section aside {
 main.cartas section aside p {
     font-size: 5rem;
     margin-top: 100px;
+}
+
+main.cartas figure img{
+    padding: 0.5rem;
+    margin: 0.5rem;
 }
 
 footer{

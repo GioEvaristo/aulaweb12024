@@ -2,7 +2,7 @@ header input#menu-abre {
     display: none;
 }
 
-@media(max-width: 600px) {
+@media(max-width: 860px) {
     header figure span {
         display: flex;
     }
@@ -61,11 +61,11 @@ header input#menu-abre {
 
     header input:checked~nav div a {
         padding: 0.2rem;
-        background-image: linear-gradient(rgb(0, 0, 0), rgb(210, 52, 144));
+        background-image: linear-gradient(rgba(192, 35, 145, 0.616), rgba(7, 4, 5, 0.555));
     }
 
     header input:checked~nav div a:hover {
         background-color: #e258c4;
-        color: purple;
+        color: rgb(0, 119, 128);
     }
 }
