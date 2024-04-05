@@ -1,18 +1,18 @@
-@media(max-width: 200px) {
+@media(max-width: 700px) {
     main.cartas {
         display: grid;
         grid-template-columns: auto auto auto;
     }
 }
 
-@media(max-width: 200px) {
+@media(max-width: 700px) {
     main.cartas {
         display: grid;
         grid-template-columns: auto auto;
     }
 }
 
-@media(max-width: 200px) {
+@media(max-width: 700px) {
     main.cartas {
         display: grid;
         grid-template-columns: auto;
@@ -28,5 +28,17 @@
 
     main.index section img {
         width: 100%;
+    }
+}
+
+@media(max-width: 700px) {
+    header figure img{
+        width: 90%;
+    }
+}
+
+@media(max-width: 200px) {
+    main figure img{
+        width: 90%;
     }
 }

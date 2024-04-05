@@ -47,19 +47,24 @@ main.index section img {
     width: 32%;
 }
 
+main.index{
+    background-image: url(./img/background.png);
+    background-repeat: no-repeat;
+}
+
 main{
-    background-color: #fb9cd0;
+    background-color: #FF7BC4;
 
 }
 main.cartas {
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto;
     align-content: flex-start;
     padding: 0.5rem;
 }
 
 main.cartas section {
-    background-color: var(--primary);
+    background-color: #FF5BB6;
     padding: 0.5rem;
     margin: 1rem;
     font-size: x-large;
@@ -73,16 +78,6 @@ main.cartas section aside {
 main.cartas section aside p {
     font-size: 5rem;
     margin-top: 100px;
-}
-main.titulo{
-    background-size: cover;
-}
-
-.background{
-    background-image: url('img/background.png');
-    height: 43rem;
-    width: 30%;
-    background-repeat: no-repeat;
 }
 
 footer{

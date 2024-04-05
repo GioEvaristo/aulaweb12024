@@ -2,7 +2,7 @@ header input#menu-abre {
     display: none;
 }
 
-@media(max-width: 400px) {
+@media(max-width: 600px) {
     header figure span {
         display: flex;
     }
@@ -16,10 +16,9 @@ header input#menu-abre {
     }
 
     header nav label[for='menu-abre'] span.menu-hamburger {
-        background-color: purple;
-        border: 1px solid var(--primary);
-        width: 30px;
-        height: 2px;
+        background-color: var(--primary);
+        width: 2rem;
+        height: 0.1rem;
     }
 
     header nav label[for='menu-abre'] span.menu-hamburger:first-child {
@@ -54,15 +53,15 @@ header input#menu-abre {
 
     header input:checked~nav div {
         position: absolute;
-        top: 1rem;
-        left: 2rem;
+        top: 5rem;
+        right: 0rem;
         display: flex;
         flex-direction: column;
     }
 
     header input:checked~nav div a {
         padding: 0.2rem;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.307), rgba(210, 52, 144, 0.524));
+        background-image: linear-gradient(rgb(0, 0, 0), rgb(210, 52, 144));
     }
 
     header input:checked~nav div a:hover {
