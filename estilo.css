@@ -59,6 +59,20 @@ main.index figure img{
     margin: 0.5rem;
 }
 
+main.index section textarea{
+    position:absolute;
+    right: 7rem;
+    width: 45rem;
+    padding: 0.5rem;
+}
+
+main.index section figure img{
+    position:absolute;
+    right: 7rem;
+    width: 45rem;
+    padding: 0.5rem;
+}
+
 main{
     background-color: #FF7BC4;
 
