@@ -15,6 +15,10 @@
     main.index section img {
         width: 100%;
     }
+
+    header figure img{
+        width: 95%;
+    }
 }
 
 @media(max-width: 800px) {

@@ -41,17 +41,12 @@ header nav a:hover {
 }
 main {
     min-height: calc(100vh - 8.5rem);
+    background-image: url(./img/background.png);
+    background-repeat: no-repeat;
+    background-color: #FF7BC4;
 }
 main.index section {
     display: flex;
-}
-main.index section img {
-    width: 32%;
-}
-
-main{
-    background-image: url(./img/background.png);
-    background-repeat: no-repeat;
 }
 
 main.index figure img{
@@ -60,23 +55,19 @@ main.index figure img{
 }
 
 main.index section textarea{
-    position:absolute;
+    position: absolute;
     right: 7rem;
     width: 45rem;
     padding: 0.5rem;
 }
 
 main.index section figure img{
-    position:absolute;
+    position: absolute;
     right: 7rem;
     width: 45rem;
     padding: 0.5rem;
 }
 
-main{
-    background-color: #FF7BC4;
-
-}
 main.cartas {
     display: grid;
     grid-template-columns: auto;
@@ -108,11 +99,6 @@ main.index section aside{
 
 main.cartas section aside {
     display: flex;
-}
-
-main.cartas section aside p {
-    font-size: 5rem;
-    margin-top: 100px;
 }
 
 main.cartas figure img{
